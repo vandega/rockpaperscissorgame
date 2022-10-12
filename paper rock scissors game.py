@@ -1,4 +1,5 @@
 import random
+#some of my comments will be in Georgian (ka)
 
 print('{  ROCK PAPER SCISSOR GAME  }'.center(70, "-"))
 
@@ -12,8 +13,8 @@ print("[   WHAT'S YOUR NAME   ]".center(70,'-'))
 name = str(input(">: ")).upper()
 
 
-# tamaShi sadamdec iqneba
-while True:  # tamaShi sadamdec iqneba
+while True:
+     #this input is the score when game is ower
     score = int(input("GAME TO: "))
     if score == 0:
         print("CHOOSE MORE THEN 0  (O_O)")
